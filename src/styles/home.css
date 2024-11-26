@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, input, select, button, option {
+    font-family: 'Inter', sans-serif;
+    background-color: #09090B;
+    color: #FAFAFA;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+}
+
+body {
+    height: 1080px;
+}
+
+
+nav {
+    padding: 2em 6em 2em 7em;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 28);
+    
+}
+
+ul {
+    display: flex;
+    justify-self: end;
+    padding: 1em 2em;
+    gap: 2em; 
+    list-style-type: none;
+}
+
+.ancoras {
+    background-color: #adff2f;
+    padding: 1em 2em;
+    border-radius: 1.25em;
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ancoras:hover {
+    background-color:  rgb(21, 21, 28);
+    font-weight: 900;
+    text-decoration: underline;
+    color: #adff2f;
+    border: 2px solid #adff2f;
+}
+
+.lista_ancoras {
+    display: flex;
+    gap: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+}
+
+main {
+    display: flex;
+    justify-self: center;
+    
+}
+
+.secao_logo {
+    display: flex;
+    align-self: center;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    color: #09090B;
+    border-radius: 12px; 
+}
+
+.conteudo {
+    padding: 2em 8em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    width: 1600px;
+    justify-content: space-between;
+}
+
+.conteudo_info {
+    display: flex;
+    flex-direction: column;
+    background-color: #805776;
+    border-radius: 1em;
+    margin-top: 2em;
+    margin-right: 2em;
+    padding-bottom: 2em;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    word-spacing: 0.25em;
+}
+
+.conteudo_titulo {
+    font-size: 44px;
+    padding: 0.5em;
+    width: 920px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 0.5em;
+    font-weight: 900;
+}
+
+.conteudo_texto {
+    margin-top: 2em;
+    gap: 1em;
+    text-align: justify;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-size: 26px;
+}
+
+.conteudo_texto a {
+    
+    background-color: #adff2f;
+    border-radius: 8px;
+    padding: 0.5em 1.25em;
+    color: #09090B;
+    font-weight: 700;
+    font-size: 22px;
+    box-shadow: 0.25em 0.25em 0.75em rgb(100, 123, 45);
+    
+    
+}
+
+.conteudo_texto a:hover {
+    background-color: #b8f75a;
+    color: #09090B;
+}
+
+.conteudo_cards {
+    display: flex;
+    width: 1400px;
+    padding: 2em 4em; 
+    margin-top: 4em;
+    gap: 4em;
+    align-self: center;
+    margin-right: 2.5em;
+}
+
+.conteudo_card {
+    display: flex;
+    padding: 1.5em 3em;
+    flex-direction: column;
+    background-color: #FF2ECD;
+    border-radius: 0.5em;
+    gap: 2em;
+    text-align:justify;
+    letter-spacing: 0.25px;
+    line-height: 22px;
+    box-shadow: inset 0em 1em 1.25em rgb(164, 37, 145);
+}
+
+.conteudo_card h3 {
+   text-align: center;
+   font-size: 32px;
+   margin-top: 0.5em;
+   font-weight: 900;
+   word-spacing: 0.25em;
+   line-height: 30px;
+   
+}
+
+.conteudo_card p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.conteudo_rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.conteudo_direitos {
+    color: #333;
+    text-decoration: none;
+}
