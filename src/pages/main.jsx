@@ -149,22 +149,7 @@ function Principal(props) {
       <Cabecalho />
       <div id="app">
         <form onSubmit={salvarAtividade}>
-          <div id="place" className="card-bg">
-            <select
-              name="cidade"
-              value={cidade}
-              onChange={(e) => setCidade(e.target.value)}
-            >
-              <option value="Florianópolis">Florianópolis</option>
-              <option value="São Paulo">São Paulo</option>
-              <option value="Rio de Janeiro">Rio de Janeiro</option>
-              <option value="Curitiba">Curitiba</option>
-              <option value="Porto Alegre">Porto Alegre</option>
-              <option value="Belo Horizonte">Belo Horizonte</option>
-              <option value="João Pessoa">João Pessoa</option>
-              <option value="Recife">Recife</option>
-            </select>
-          </div>
+        
 
           <div className="fields">
             <div className="field-wrapper_texto">

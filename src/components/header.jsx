@@ -30,11 +30,10 @@ function Cabecalho() {
                     background: location.pathname === '/principal' ? 'red' : '',
                     color: location.pathname === '/principal' ? 'white' : '',
                     borderBottom: location.pathname === '/principal' ? 'red' : '#adff2f'
-                    
                 }}
-                >
+            >
                 {location.pathname === '/principal' ? 'Sair' : 'Sobre o site'}
-                </NavLink>
+            </NavLink>
 
 
                 <NavLink to={location.pathname === '/login' ? '/' : '/login'}
